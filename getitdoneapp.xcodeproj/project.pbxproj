@@ -13,6 +13,7 @@
 		8F56C78220D5953900527A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F56C78120D5953900527A9D /* Assets.xcassets */; };
 		8F56C78520D5953900527A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F56C78320D5953900527A9D /* LaunchScreen.storyboard */; };
 		8F56C78D20D59CFC00527A9D /* GDGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F56C78C20D59CFB00527A9D /* GDGradient.swift */; };
+		8F56C79020D5A44100527A9D /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F56C78F20D5A44100527A9D /* extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8F56C78420D5953900527A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F56C78620D5953900527A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F56C78C20D59CFB00527A9D /* GDGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDGradient.swift; sourceTree = "<group>"; };
+		8F56C78F20D5A44100527A9D /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		8F56C77620D5953800527A9D /* getitdoneapp */ = {
 			isa = PBXGroup;
 			children = (
+				8F56C78E20D5A42500527A9D /* extension */,
 				8F56C77720D5953800527A9D /* AppDelegate.swift */,
 				8F56C77920D5953800527A9D /* WelcomeController.swift */,
 				8F56C78120D5953900527A9D /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				8F56C78C20D59CFB00527A9D /* GDGradient.swift */,
 			);
 			path = getitdoneapp;
+			sourceTree = "<group>";
+		};
+		8F56C78E20D5A42500527A9D /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				8F56C78F20D5A44100527A9D /* extension.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 				8F56C78D20D59CFC00527A9D /* GDGradient.swift in Sources */,
 				8F56C77A20D5953800527A9D /* WelcomeController.swift in Sources */,
 				8F56C78020D5953800527A9D /* getitdoneapp.xcdatamodeld in Sources */,
+				8F56C79020D5A44100527A9D /* extension.swift in Sources */,
 				8F56C77820D5953800527A9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
