@@ -14,6 +14,8 @@
 		8F56C78520D5953900527A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F56C78320D5953900527A9D /* LaunchScreen.storyboard */; };
 		8F56C78D20D59CFC00527A9D /* GDGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F56C78C20D59CFB00527A9D /* GDGradient.swift */; };
 		8F56C79020D5A44100527A9D /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F56C78F20D5A44100527A9D /* extension.swift */; };
+		8F56C79320D5AF8300527A9D /* GDLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F56C79220D5AF8300527A9D /* GDLabel.swift */; };
+		8F56C79820D5BC7800527A9D /* Raleway-v4020-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F56C79720D5BC7800527A9D /* Raleway-v4020-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8F56C78620D5953900527A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F56C78C20D59CFB00527A9D /* GDGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDGradient.swift; sourceTree = "<group>"; };
 		8F56C78F20D5A44100527A9D /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		8F56C79220D5AF8300527A9D /* GDLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDLabel.swift; sourceTree = "<group>"; };
+		8F56C79720D5BC7800527A9D /* Raleway-v4020-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-v4020-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		8F56C77620D5953800527A9D /* getitdoneapp */ = {
 			isa = PBXGroup;
 			children = (
+				8F56C79420D5B35900527A9D /* fonts */,
+				8F56C79120D5AF5900527A9D /* custom */,
 				8F56C78E20D5A42500527A9D /* extension */,
 				8F56C77720D5953800527A9D /* AppDelegate.swift */,
 				8F56C77920D5953800527A9D /* WelcomeController.swift */,
@@ -65,7 +71,6 @@
 				8F56C78320D5953900527A9D /* LaunchScreen.storyboard */,
 				8F56C78620D5953900527A9D /* Info.plist */,
 				8F56C77E20D5953800527A9D /* getitdoneapp.xcdatamodeld */,
-				8F56C78C20D59CFB00527A9D /* GDGradient.swift */,
 			);
 			path = getitdoneapp;
 			sourceTree = "<group>";
@@ -76,6 +81,23 @@
 				8F56C78F20D5A44100527A9D /* extension.swift */,
 			);
 			path = extension;
+			sourceTree = "<group>";
+		};
+		8F56C79120D5AF5900527A9D /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				8F56C78C20D59CFB00527A9D /* GDGradient.swift */,
+				8F56C79220D5AF8300527A9D /* GDLabel.swift */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		8F56C79420D5B35900527A9D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8F56C79720D5BC7800527A9D /* Raleway-v4020-Regular.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F56C79820D5BC7800527A9D /* Raleway-v4020-Regular.otf in Resources */,
 				8F56C78520D5953900527A9D /* LaunchScreen.storyboard in Resources */,
 				8F56C78220D5953900527A9D /* Assets.xcassets in Resources */,
 			);
@@ -151,6 +174,7 @@
 				8F56C78D20D59CFC00527A9D /* GDGradient.swift in Sources */,
 				8F56C77A20D5953800527A9D /* WelcomeController.swift in Sources */,
 				8F56C78020D5953800527A9D /* getitdoneapp.xcdatamodeld in Sources */,
+				8F56C79320D5AF8300527A9D /* GDLabel.swift in Sources */,
 				8F56C79020D5A44100527A9D /* extension.swift in Sources */,
 				8F56C77820D5953800527A9D /* AppDelegate.swift in Sources */,
 			);
